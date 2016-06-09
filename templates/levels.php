@@ -58,13 +58,4 @@ if($pmpro_msg)
 			<?php
 			}
 		?>
-		<nav id="nav-below" class="navigation" role="navigation">
-			<div class="nav-previous alignleft">
-				<?php if(!empty($current_user->membership_level->ID)) { ?>
-					<a href="<?php echo pmpro_url("account")?>"><?php _e('&larr; Return to Your Account', 'pmpro');?></a>
-				<?php } else { ?>
-					<a href="<?php echo home_url()?>"><?php _e('&larr; Return to Home', 'pmpro');?></a>
-				<?php } ?>
-			</div>
-		</nav>
 	</div>  <!-- end #pmpro_levels -->
